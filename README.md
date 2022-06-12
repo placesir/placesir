@@ -19,6 +19,9 @@ Content-based filtering is one popular technique of recommendation or recommende
 
 In placesir we tried to build 2 types of recommendation system; user-based collaborative filtering and content-based filtering. But in practice we only deploy the user-based collaborative filtering model due to time constraint.
 
+## Deployment
+We create machine learning API using Django.
+
 ## Reference
 1. For content-based recommendation systems: [here](https://www.kdnuggets.com/2020/07/building-content-based-book-recommendation-engine.html) and [here](https://www.youtube.com/watch?v=1xtrIEwY_zY)
 2. For user-based collaborative filtering: [here](https://gilberttanner.com/blog/building-a-book-recommendation-system-usingkeras/)
