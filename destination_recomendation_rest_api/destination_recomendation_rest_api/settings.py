@@ -89,7 +89,7 @@ WSGI_APPLICATION = 'destination_recomendation_rest_api.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql', 
+        'ENGINE' : 'django.db.backends.mysql', 
         'NAME': env('placesirdb'),
         'USER': env('placesiruser'),
         'PASSWORD': env('1111'),
